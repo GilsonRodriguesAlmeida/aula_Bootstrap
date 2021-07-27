@@ -1,32 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Minha Pagina</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type= "text/css" href="bootstrap/css/bootstrap.min.css">
-        <link rel="styleshett" type="text/css" href="css/style.css">
-    </head>
 
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
-                <img src="img/happy.jpg" width="60" height="140">
-            </a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Quem somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Parceiros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
-                    </li>
-                </ul>
+<head>
+    <title>Minha Pagina</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <a class="navbar-brand" href="#">
+            <img src="img/happy.jpg" width="60" height="140">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quemsomos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="quemsomos">
+        <div class="container-fluid text-center margin quem-somos">
+            <h3 class="margin">Quem somos</h3>
+            <img src="img/qmsomos.jpg" class="rounded-circle" width="400" height="400">
+            <h5>
+                <p>Adjetivo Que está muito contente; </p>
+                <p>Que se sente afortunado; que está muito satisfeito. </p>
+                <p> Que teve os seus desejos concretizados; contente.</p>
+                <p>Que obteve um resultado favorável; vantajoso.</p>
+                <p>Que expressa alegria; alegre.</p>
+            </h5>
+        </div>
+    </section>
+
+    <section id="parceiros">
+        <div class="container-fluid text-center  margin parceiros">
+            <h3 class="margin">Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/mc.jpg" weidth="200" height="200">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/r66.jpg" weidth="200" height="200">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/jg.jpg" wheight="200" height="200">
+                    </div>
+                </div>
             </div>
-        </nav>
+        </div>
+    </section>
 
-    </body>
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3 class="margin">Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h6>Mecânica</h6>
+                        <p>Qualidade, bom preço,
+                            garantia de 1 ano e nota fiscal.
+                            Faça seu orçamento já.
+                            Otimize seu tempo e seu dinheiro.</p>
+                        <img src="img/mecanica.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <h6>Tecnologia</h6>
+                        <p>Consertos, manutenções preventivas e corretivas, 
+                            revisão. Balanceamento e alinhamento de pneus.</p>
+                        <img src="img/tecnologia.jpg" width="85%">
+                    </div>
+                    <div class="col-lg-4">
+                        <h6>Estética</h6>
+                        <p>Na estética automotiva, 
+                            os serviços realizados são manutenção, 
+                            limpeza e cuidados com diversos detalhes.</p>
+                        <img src="img/estilização.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
 
 </html>
